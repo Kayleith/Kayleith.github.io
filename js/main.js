@@ -171,6 +171,10 @@ jQuery(function($) {'use strict';
 			}
 		}).done(function(data){
 			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+			$('#name').empty();
+			$('#email').empty();
+			$('#subject').empty(); 
+			$('#message').empty();
 		});
 	});
 
