@@ -164,7 +164,7 @@ jQuery(function($) {'use strict';
 		$.ajax({
 			url: $(this).attr('action'),
 			method: "POST",
-			data: {message: "hello"},
+			data: {name: $('#name').val(), email: $('#email').val(), subject: $('#subject').val(), message: $('#message').val()},
 			dataType: "json",
 			beforeSend: function(){
 				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
