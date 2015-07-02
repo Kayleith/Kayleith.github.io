@@ -572,6 +572,8 @@ ul.nostyle i {
 }
 #testimonial .img-thumbnail {
   background: transparent;
+  width: 98px;
+  height: 98px;
 }
 #testimonial #carousel-testimonial .btns {
     margin-top: 30px;
